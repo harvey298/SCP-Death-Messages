@@ -1,0 +1,8 @@
+name: scpDeathMsg
+version: ${project.version}
+main: uk.co.hoovy.scpDeathMsg
+api-version: 1.17
+prefix: [ SCP-Death Message ]
+authors: [ harvey298 ]
+description: A Paper Plugin that changes Death Messages to be SCP themed!
+website: hoovy.co.uk
