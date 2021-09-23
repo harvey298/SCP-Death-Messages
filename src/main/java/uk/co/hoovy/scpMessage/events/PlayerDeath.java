@@ -23,7 +23,7 @@ public class PlayerDeath implements Listener {
             TextComponent Changed_Death_Messaged = Component.text(DeathPrefix).append(player_Name).append(Component.text(" recognized the bodies in the water").clickEvent(ClickEvent.openUrl("https://scp-wiki.wikidot.com/scp-2316")));
             e.deathMessage(Changed_Death_Messaged);
         } else if (deathmsg.contains("world")) {
-            TextComponent Changed_Death_Messaged = Component.text(DeathPrefix).append(player_Name).append(Component.text(" Failed the Vibe check").clickEvent(ClickEvent.openUrl("https://github.com/harvey298/SCP-Death-Messages")));
+            TextComponent Changed_Death_Messaged = Component.text(DeathPrefix).append(player_Name).append(Component.text(" swum with the glow-squids").clickEvent(ClickEvent.openUrl("https://hoovy.co.uk/death/")));
             e.deathMessage(Changed_Death_Messaged);
         } else if (deathmsg.contains("enderman")) {
             TextComponent Changed_Death_Messaged = Component.text(DeathPrefix).append(player_Name).append(Component.text(" Let SCP-4335 breach containment!").clickEvent(ClickEvent.openUrl("https://scp-wiki.wikidot.com/scp-4335"))); // SCP-4335
